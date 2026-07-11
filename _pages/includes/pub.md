@@ -14,9 +14,6 @@
 
 <span style="font-size: 0.9em;"> **Tao Huang**, Rui Wang, Xiaofei Liu, Xiaomeng Li, Yi Qin, Tong Xiao, Zhekun Liu, Liping Jing; | [📦**Code**]() | [🤗**Huggingface**]() (Coming Soon)  </span>
 
-
-<!-- [**Code**](替换为代码链接) | [**PDF**](替换为PDF链接) | [**Coming soon**]() -->
-
 - **Continuous Paradigm**: Introduces Learning Universal Semantic Simplex (LUSS), shifting the jailbreak optimization from point-wise perturbations to continuous adversarial simplices.
 
 - **Overfitting Mitigation**: Leverages a sharpness-aware penalty and a simplex-based update to capture broad adversarial semantics within a convex hull.
