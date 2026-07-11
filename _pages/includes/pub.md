@@ -24,7 +24,7 @@
 
 **Superior Performance**: Outperforms strong baselines on four state-of-the-art LVLMs, improving AUROC by 10.4% and AUPR by 5.3% on average.
 
-  </div>
+</div>
 </div>
 
 
@@ -49,6 +49,7 @@
 
 - **Superior Improvement**: Outperforms state-of-the-art baselines, achieving up to a 60.8% relative improvement in ASR and a 44.7% gain in Malicious Intent Fulfillment Rate.
 
-  </div>
 </div>
+</div>
+<div style="clear: both;"></div>
 
