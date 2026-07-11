@@ -11,6 +11,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 赋予该任务向仓库推送新数据的权限
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
