@@ -1,5 +1,30 @@
 <!-- # 📝 Publications -->
 ## Selected Publications
+<!-- Paper 1: ACM MM 2026 -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ACM MM 2026</div>
+      <img src='images/LUSS.png' alt="图片描述" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Learning Universal Semantic Simplex for Jailbreaking Large Vision-Language Models](替换为正式链接或先留空) \
+**Tao Huang**, Rui Wang, Xiaofei Liu, Xiaomeng Li, Yi Qin, Tong Xiao, Zhekun Liu, Liping Jing
+
+<!-- [**Code**](替换为代码链接) | [**PDF**](替换为PDF链接) | [**Coming soon**]() -->
+
+- **Continuous Paradigm**: Introduces Learning Universal Semantic Simplex (LUSS), shifting the jailbreak optimization from point-wise perturbations to continuous adversarial simplices.
+
+- **Overfitting Mitigation**: Leverages a sharpness-aware penalty and a simplex-based update to capture broad adversarial semantics within a convex hull.
+
+- **Superior Improvement**: Outperforms state-of-the-art baselines, achieving up to a 60.8% relative improvement in ASR and a 44.7% gain in Malicious Intent Fulfillment Rate.
+
+  </div>
+</div> 
+
+
 <!-- Your representative paper (with image) -->
 <div class='paper-box'>
   <div class='paper-box-image'>
