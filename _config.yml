@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Tao"
 description              : "Welcome to Tao's homepage"
-repository               : "HT86159/HT86159.github.io"
+repository               : "TerryHWong/TerryHWong.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,7 +23,7 @@ google_site_verification : yFNmcs7-wFl-_b1xLhgaixe4CKLVLbHzEyKCt8o8rKg
 author:
   name             : "Tao Huang (Terry)"
   avatar           : "images/profile.jpeg"
-  bio              : "Ph.D. student in Computer Science at Beijing Jiaotong University."
+  bio              : "Ph.D. student in Computer Science and Technology at BJTU."
   location         : "Beijing China"
   employer         : "Beijing Jiaotong<br>University"
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HT86159"
+  github           : "TerryHWong"
   google_plus      :
   keybase          :
   instagram        :
