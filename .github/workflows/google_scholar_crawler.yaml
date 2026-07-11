@@ -1,9 +1,11 @@
 name: Get Citation Data
 
 on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+  schedule:
+    # 修改为每周日 UTC 时间 00:00 (北京时间早上 8:00) 执行一次
+    - cron: '0 0 * * 0'
+  # 保留手动触发功能，方便你以后想手动更新时在 GitHub 页面点击运行
+  workflow_dispatch:
 
 jobs:
   build:
