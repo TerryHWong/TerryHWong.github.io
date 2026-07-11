@@ -27,6 +27,7 @@ Superior Performance: Outperforms strong baselines on four state-of-the-art LVLM
   </div>
 </div>
 
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -50,3 +51,4 @@ Superior Performance: Outperforms strong baselines on four state-of-the-art LVLM
 
   </div>
 </div>
+
