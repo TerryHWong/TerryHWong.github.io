@@ -18,11 +18,11 @@
 
 <div style="border-top: 1px solid #eaecef; margin: 15px 0;"></div>
 
-Efficient Framework: A training-free method that quantifies uncertainty using pre-logits features in a single forward pass.
+**Efficient Framework**: A training-free method that quantifies uncertainty using pre-logits features in a single forward pass.
 
-Novel Insight: Layer-wise dynamic analysis reveals that hallucinations correspond to high internal conflict, while OOD failures correspond to high ignorance.
+**Novel Insight**: Layer-wise dynamic analysis reveals that hallucinations correspond to high internal conflict, while OOD failures correspond to high ignorance.
 
-Superior Performance: Outperforms strong baselines on four state-of-the-art LVLMs, improving AUROC by 10.4% and AUPR by 5.3% on average.
+**Superior Performance**: Outperforms strong baselines on four state-of-the-art LVLMs, improving AUROC by 10.4% and AUPR by 5.3% on average.
 
   </div>
 </div>
@@ -43,11 +43,11 @@ Superior Performance: Outperforms strong baselines on four state-of-the-art LVLM
 
 <div style="border-top: 1px solid #eaecef; margin: 15px 0;"></div>
 
-- Continuous Paradigm: Introduces **Learning Universal Semantic Simplex (LUSS)**, shifting the jailbreak optimization from point-wise perturbations to continuous adversarial simplices.
+- **Continuous Paradigm**: Introduces **Learning Universal Semantic Simplex (LUSS)**, shifting the jailbreak optimization from point-wise perturbations to continuous adversarial simplices.
 
-- Overfitting Mitigation: Leverages a sharpness-aware penalty and a simplex-based update to capture broad adversarial semantics within a convex hull.
+- **Overfitting Mitigation**: Leverages a sharpness-aware penalty and a simplex-based update to capture broad adversarial semantics within a convex hull.
 
-- Superior Improvement: Outperforms state-of-the-art baselines, achieving up to a 60.8% relative improvement in ASR and a 44.7% gain in Malicious Intent Fulfillment Rate.
+- **Superior Improvement**: Outperforms state-of-the-art baselines, achieving up to a 60.8% relative improvement in ASR and a 44.7% gain in Malicious Intent Fulfillment Rate.
 
   </div>
 </div>
