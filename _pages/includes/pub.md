@@ -4,7 +4,7 @@
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ACMMM 2026</div>
+      <div class="badge">ACM MM 2026</div>
       <img src='images/LUSS.png' alt="图片描述" width="100%">
     </div>
   </div>
