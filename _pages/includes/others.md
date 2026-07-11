@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📖 Education
 - *2026.10 – 2027.09 (Expected)*, Joint Ph.D. Student, School of Computing, National University of Singapore, Singapore
 - *2023.09 – 2028.06 (Expected)*, Ph.D. Student in Computer Science and Technology, Beijing Jiaotong University, Beijing, China  
