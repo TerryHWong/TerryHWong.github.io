@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## About Me
 My research interests center on the safety and trustworthiness of AI systems. Specifically, I focus on **uncertainty learning, adversarial robustness, machine unlearning, and formal verification**.
 I am open to any form of **academic cooperation**, please feel free to email me at [thuang[at]bjtu[dot]edu[dot]cn].

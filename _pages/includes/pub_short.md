@@ -1,8 +1,8 @@
-# Publications
-## 📚 Paper List
+# 📚 Publications
+## 📄 Paper List
 #### 📊 Uncertainty Quantification
 - ``ICLR 2026`` [Detecting Misbehaviors of Large Vision-Language Models by Evidential Uncertainty Quantification](https://openreview.net/forum?id=xJT4fXJr1Q), **Tao Huang**, Rui Wang, Xiaofei Liu, Yi Qin, Li Duan, Liping Jing.
-- ``IJAR 2025`` [Visual Hallucination Detection in Large Vision-Language Models via Evidential Conflict](https://arxiv.org/pdf/2506.19513), **Tao Huang**, Zhekun Liu, Rui Wang, Yang Zhang, Liping Jing. [\[Dataset:PRE-HAL\]](https://huggingface.co/datasets/TerryHWong/PRE-HAL)
+- ``IJAR 2025`` [Visual Hallucination Detection in Large Vision-Language Models via Evidential Conflict](https://arxiv.org/pdf/2506.19513), **Tao Huang**, Zhekun Liu, Rui Wang, Yang Zhang, Liping Jing. [\[🤗 Dataset:PRE-HAL\]](https://huggingface.co/datasets/TerryHWong/PRE-HAL)
 
 #### 🛡️ Adversarial Learning
 - ``ACM MM 2026`` [Learning Universal Semantic Simplex for Jailbreaking Large Vision-Language Models](), **Tao Huang**, Rui Wang, Xiaofei Liu, Xiaomeng Li, Yi Qin, Tong Xiao, Zhekun Liu, and Liping Jing. (Coming soon)
