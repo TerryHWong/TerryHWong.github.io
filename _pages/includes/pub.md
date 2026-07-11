@@ -1,5 +1,4 @@
 <!-- # 📝 Publications -->
-<<<<<<< HEAD
 ## ⭐ Selected Publications
 <!-- Paper 1: ACM MM 2026 -->
 <div class='paper-box'>
@@ -11,8 +10,10 @@
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Learning Universal Semantic Simplex for Jailbreaking Large Vision-Language Models](替换为正式链接或先留空) \
-**Tao Huang**, Rui Wang, Xiaofei Liu, Xiaomeng Li, Yi Qin, Tong Xiao, Zhekun Liu, Liping Jing
+<span style="font-size: 1.5em;"> [**Learning Universal Semantic Simplex for Jailbreaking Large Vision-Language Models**]() </span>
+
+<span style="font-size: 0.9em;"> **Tao Huang**, Rui Wang, Xiaofei Liu, Xiaomeng Li, Yi Qin, Tong Xiao, Zhekun Liu, Liping Jing; | [📦**Code**]() | [🤗**Huggingface**]() (Coming Soon)  </span>
+
 
 <!-- [**Code**](替换为代码链接) | [**PDF**](替换为PDF链接) | [**Coming soon**]() -->
 
@@ -49,4 +50,3 @@
 
   </div>
 </div>
->>>>>>> ca63297ad6140e836dbfe7ee9cbab8604f8b1401
