@@ -1,34 +1,34 @@
 name: Get Citation Data
 
 on: 
-  workflow_dispatch:
-  schedule:
-    # 修改为每周日 UTC 时间 00:00 (北京时间早上 8:00) 执行一次
-    - cron: '0 0 * * 0'
-  # 保留手动触发功能，方便你以后想手动更新时在 GitHub 页面点击运行
-  # workflow_dispatch:
+#   workflow_dispatch:
+#   schedule:
+#     # 修改为每周日 UTC 时间 00:00 (北京时间早上 8:00) 执行一次
+#     - cron: '0 0 * * 0'
+#   # 保留手动触发功能，方便你以后想手动更新时在 GitHub 页面点击运行
+#   # workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write  # 赋予该任务向仓库推送新数据的权限
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write  # 赋予该任务向仓库推送新数据的权限
+#     steps:
+#     - uses: actions/checkout@v2
+#     - name: Install Reqs
+#       run: |
+#         sudo apt-get install python3-setuptools
+#     - name: Run
+#       run: |
+#         cd ./google_scholar_crawler
+#         pip3 install -r requirements.txt
+#         python3 main.py
+#         cd ./results
+#         git init
+#         git config --local user.name "${GITHUB_ACTOR}"
+#         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+#         git add *.json
+#         git commit -m "Updated Citation Data"
+#         git push "${remote_repo}" HEAD:google-scholar-stats --force
+#       env: 
+#         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
